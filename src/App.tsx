@@ -17,7 +17,7 @@ import {
   Phone,
   MapPin
 } from 'lucide-react';
-
+import image from '../src/assets/photo_2024-06-28_09-55-56.jpg';
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -27,7 +27,8 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
-                <BookOpen className="w-5 h-5 text-white" />
+         
+                <img src = {image}/>
               </div>
               <span className="text-xl font-bold text-gray-900">Nile Tech Academy</span>
             </div>
