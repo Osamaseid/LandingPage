@@ -17,7 +17,7 @@ import {
   Phone,
   MapPin
 } from 'lucide-react';
-import image from '../src/assets/photo_2024-06-28_09-55-56.jpg';
+import image from '../src/assets/photo_2024-06-28_09-55-56-removebg-preview.png';
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -28,7 +28,7 @@ function App() {
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
          
-                <img src = {image}/>
+                <img src = {image} className=''/>
               </div>
               <span className="text-xl font-bold text-gray-900">Nile Tech Academy</span>
             </div>
@@ -354,51 +354,7 @@ function App() {
         </div>
       </section>
 
-
-      {/* FAQ Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-xl text-gray-600">Get answers to common questions about our platform</p>
-          </div>
-          <div className="space-y-6">
-            {[
-              {
-                question: "How long do I have access to the courses?",
-                answer: "Once you enroll in a course, you have lifetime access to all course materials, including future updates and additional content."
-              },
-              {
-                question: "Are there any prerequisites for the courses?",
-                answer: "Most of our beginner courses have no prerequisites. For advanced courses, we clearly list the required knowledge and skills in the course description."
-              },
-              {
-                question: "Do you offer certificates upon completion?",
-                answer: "Yes! Upon successful completion of any course, you'll receive a verified certificate that you can share on LinkedIn and add to your resume."
-              },
-              {
-                question: "Can I get a refund if I'm not satisfied?",
-                answer: "We offer a 30-day money-back guarantee. If you're not completely satisfied with your purchase, contact us for a full refund."
-              },
-              {
-                question: "Is there support available if I get stuck?",
-                answer: "Absolutely! We provide multiple support channels including community forums, direct instructor access, and priority support for Pro members."
-              },
-              {
-                question: "Can I download course materials for offline viewing?",
-                answer: "Yes, our mobile app allows you to download course videos and materials for offline learning, perfect for learning on the go."
-              }
-            ].map((faq, index) => (
-              <div key={index} className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
-                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Blog/News Section */}
+       {/* Blog/News Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -465,6 +421,9 @@ function App() {
           </div>
         </div>
       </section>
+     
+
+     
 
       {/* Testimonials */}
       <section className="py-16 bg-white">
@@ -520,7 +479,48 @@ function App() {
           </div>
         </div>
       </section>
-
+       {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+            <p className="text-xl text-gray-600">Get answers to common questions about our platform</p>
+          </div>
+          <div className="space-y-6">
+            {[
+              {
+                question: "How long do I have access to the courses?",
+                answer: "Once you enroll in a course, you have lifetime access to all course materials, including future updates and additional content."
+              },
+              {
+                question: "Are there any prerequisites for the courses?",
+                answer: "Most of our beginner courses have no prerequisites. For advanced courses, we clearly list the required knowledge and skills in the course description."
+              },
+              {
+                question: "Do you offer certificates upon completion?",
+                answer: "Yes! Upon successful completion of any course, you'll receive a verified certificate that you can share on LinkedIn and add to your resume."
+              },
+              {
+                question: "Can I get a refund if I'm not satisfied?",
+                answer: "We offer a 30-day money-back guarantee. If you're not completely satisfied with your purchase, contact us for a full refund."
+              },
+              {
+                question: "Is there support available if I get stuck?",
+                answer: "Absolutely! We provide multiple support channels including community forums, direct instructor access, and priority support for Pro members."
+              },
+              {
+                question: "Can I download course materials for offline viewing?",
+                answer: "Yes, our mobile app allows you to download course videos and materials for offline learning, perfect for learning on the go."
+              }
+            ].map((faq, index) => (
+              <div key={index} className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-blue-600 to-teal-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
