@@ -78,7 +78,7 @@ function App() {
                   <div className="text-sm text-gray-600">Courses</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-900">50K+</div>
+                  <div className="text-2xl font-bold text-gray-900">200+</div>
                   <div className="text-sm text-gray-600">Students</div>
                 </div>
                 <div className="text-center">
