@@ -301,15 +301,15 @@ function App() {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-6 bg-blue-50 rounded-xl">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">5+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">2+</div>
                   <div className="text-sm text-gray-600">Years of Excellence</div>
                 </div>
                 <div className="text-center p-6 bg-teal-50 rounded-xl">
-                  <div className="text-3xl font-bold text-teal-600 mb-2">100+</div>
+                  <div className="text-3xl font-bold text-teal-600 mb-2">10+</div>
                   <div className="text-sm text-gray-600">Expert Instructors</div>
                 </div>
                 <div className="text-center p-6 bg-orange-50 rounded-xl">
-                  <div className="text-3xl font-bold text-orange-600 mb-2">50K+</div>
+                  <div className="text-3xl font-bold text-orange-600 mb-2">100+</div>
                   <div className="text-sm text-gray-600">Graduates</div>
                 </div>
                 <div className="text-center p-6 bg-purple-50 rounded-xl">
